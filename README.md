@@ -1,4 +1,6 @@
-# 👾 Gen0z63 - Equipo de Desarrollo Colaborativo
+# 👾 SOTFWAVE-UC
+
+**Equipo de Desarrollo Colaborativo**
 
 ¡Bienvenidos a **Gen0z63**! Somos un grupo apasionado por el desarrollo de software, la tecnología y la innovación. Trabajamos de forma colaborativa para aprender, crear y compartir proyectos con impacto.
 
