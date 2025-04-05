@@ -2,7 +2,7 @@
 
 **Equipo de Desarrollo Colaborativo**
 
-¡Bienvenidos a **Gen0z63**! Somos un grupo apasionado por el desarrollo de software, la tecnología y la innovación. Trabajamos de forma colaborativa para aprender, crear y compartir proyectos con impacto.
+¡Bienvenidos a **SOFTWAVE-UC**! Somos un grupo apasionado por el desarrollo de software, la tecnología y la innovación. Trabajamos de forma colaborativa para aprender, crear y compartir proyectos con impacto.
 
 ## 🚀 ¿Qué hacemos?
 
