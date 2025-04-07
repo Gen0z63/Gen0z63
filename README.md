@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="PORTADA SOFTWAVE.jpg" alt="Banner de SOFTWAVE-UC" width="100%" />
+</p>
 
 # 🌊 SOFTWAVE-UC
 
