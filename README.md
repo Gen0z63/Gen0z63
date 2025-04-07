@@ -66,6 +66,8 @@ Publicamos recursos, compartimos buenas prácticas y contribuimos a proyectos co
 - 🤝 Alianzas académicas y colaborativas  
 - 🎓 Recursos y guías para nuevos desarrolladores
 
+# ![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGdnaWc0aG53dnNoeWR0ZW1jbWR4MXA3czQ3d2Rkb2piNHJ0c2VscyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jfF6mIPumEzN9QW0kL/giphy.gif)
+
 ---
 
 ### 🚀 Skills
