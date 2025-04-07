@@ -14,7 +14,7 @@ SOFTWAVE-UC está conformado por miembros talentosos con perfiles diversos:
 - [💻 ANTONY - Full Stack Developer](https://github.com/AntonyGZ)
 - [📊 VICTOR - Analista de Datos](https://AngelesNet.github.io/) 
 - [🎨 EDWIN - Diseñador UI/UX](https://github.com/Cristhiandq)  
-- [💻 YURI - Full Stack Developer](https://yurimolleapaza.github.io/)  
+- [💻 YURI - Full Stack Developer](https://github.com/YuriMolleapaza)  
 - [📊 CARLOS - Analista de Datos](https://carlos.github.io/)
 
 Puedes conocer más sobre cada uno de nosotros visitando nuestros portafolios individuales en este perfil.
