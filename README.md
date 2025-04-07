@@ -17,7 +17,7 @@ Aquí están los enlaces a los portafolios de los colaboradores:
 
 - [💻 ANTONY - Full Stack Developer](https://github.com/AntonyGZ)
 - [📊 VICTOR - Analista de Datos](https://AngelesNet.github.io/) 
-- [🎨 EDWIN - Diseñador UI/UX](https://juan.github.io/)  
+- [🎨 EDWIN - Diseñador UI/UX](https://github.com/Cristhiandq)  
 - [💻 YURI - Full Stack Developer](https://yurimolleapaza.github.io/)  
 - [📊 CARLOS - Analista de Datos](https://carlos.github.io/)
 
