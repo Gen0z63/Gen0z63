@@ -8,11 +8,24 @@
 
 **SOFTWAVE-UC** es un equipo de desarrolladores, diseñadores e investigadores comprometidos con la creación de soluciones tecnológicas innovadoras, funcionales y de impacto. Creemos en el poder del código para transformar ideas en herramientas que resuelven problemas reales y mejoran la vida de las personas.
 
+# Plataforma Colaborativa de Portafolios
+
 ![Blogger](https://img.shields.io/badge/Blogger-FF5722?style=for-the-badge&logo=blogger&logoColor=white)
 ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 ![GitHub Copilot](https://img.shields.io/badge/github_copilot-8957E5?style=for-the-badge&logo=github-copilot&logoColor=white)
 
+## Descripción
+
+Este repositorio contiene la **plataforma colaborativa de portafolios** donde los miembros del equipo pueden visualizar, compartir y colaborar en sus proyectos. La plataforma permite a los usuarios:
+- Subir proyectos personales.
+- Ver habilidades y logros de cada miembro del equipo.
+- Compartir enlaces a repositorios de GitHub.
+- Fomentar la colaboración y el trabajo en equipo.
+
 ---
+
+### Objetivo del Proyecto
+El objetivo es crear un espacio donde cada miembro del equipo pueda **mostrar sus habilidades y proyectos** de manera organizada, ayudando a los miembros a **compartir su progreso** y colaborar de manera eficiente en futuros proyectos.
 
 ## 🧑‍💻 Conoce al equipo
 
