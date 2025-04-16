@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest  # El trabajo se ejecuta en un entorno de Ubuntu
 
     steps:
-      # Paso 1: Clonar el código del repositorio
+      # Paso 1: Clonar el código del 
       - name: Checkout code
         uses: actions/checkout@v2
 
