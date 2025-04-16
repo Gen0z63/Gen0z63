@@ -1,6 +1,5 @@
 name: Deploy to GitHub Pages
 
-# Se ejecutará cuando haya un push en la rama `main` o un PR hacia esa rama
 on:
   push:
     branches:
@@ -9,20 +8,22 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read      # Permite leer el código fuente
+  pages: write        # Permite publicar en GitHub Pages
+  id-token: write     # Necesario para autenticación con GitHub Pages
+
 jobs:
   deploy:
-    runs-on: ubuntu-latest  # El trabajo se ejecuta en un entorno de Ubuntu
+    runs-on: ubuntu-latest
 
     steps:
-      # Paso 1: Clonar el código del 
       - name: Checkout code
         uses: actions/checkout@v2
 
-      # Paso 2: Desplegar a GitHub Pages
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages  # Rama donde se desplegará el sitio
-          folder: .         # Especifica la carpeta donde se encuentran los archivos estáticos
-          token: ${{ secrets.GITHUB_TOKEN }}  # Token de autenticación para desplegar
-
+          branch: gh-pages
+          folder: .
+          token: ${{ secrets.GITHUB_TOKEN }}
