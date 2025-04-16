@@ -1,0 +1,35 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main   # O la rama que elijas para el despliegue
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2  # Descarga el código del repositorio
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'  # Usa la versión de Node.js que necesites
+
+      - name: Install dependencies
+        run: npm install  # Instala las dependencias de tu proyecto (si usas Node.js)
+
+      - name: Run tests
+        run: npm test  # Ejecuta las pruebas de tu proyecto
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages  # La rama de despliegue
+          folder: build     # La carpeta que contiene el código compilado
+          token: ${{ secrets.GITHUB_TOKEN }}  # Token de autenticación de GitHub
