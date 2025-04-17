@@ -59,6 +59,18 @@ Publicamos recursos, compartimos buenas prácticas y contribuimos a proyectos co
 
 ---
 
+## Tecnologías utilizadas
+
+SOFTWAVE-UC está construido con las siguientes tecnologías:
+
+- **Frontend**: React, Vue.js, Angular (elige el que estés usando)
+- **Backend**: Node.js, Python, Django, Flask (elige lo que corresponda)
+- **Base de datos**: MySQL, PostgreSQL, MongoDB (dependiendo de lo que uses)
+- **Version control**: Git, GitHub
+- **Infraestructura**: Docker, Kubernetes (si aplica)
+
+---
+
 ## 🧠 Áreas de interés
 
 - Inteligencia Artificial & Machine Learning 🤖  
