@@ -8,6 +8,52 @@
     <title>Proyecto Colaborativo - Portafolios del Equipo</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css"> <!-- Enlace a tu archivo de estilos -->
+    <style>
+        /* Agrega un estilo para la barra de búsqueda */
+        .search-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        #searchInput {
+            width: 50%;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        /* Estilo para las secciones */
+        section {
+            margin: 40px 0;
+        }
+
+        section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .team-member {
+            width: 200px;
+            text-align: center;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        /* Imagen responsiva */
+        #teamImage img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 
 <body>
@@ -19,11 +65,52 @@
         </div>
     </header>
 
+    <!-- Barra de búsqueda -->
+    <div class="search-container">
+        <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Buscar miembros o proyectos..." title="Buscar">
+    </div>
+
+    <script>
+        function searchFunction() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById("searchInput");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("portfolioList");
+            li = ul.getElementsByTagName("li");
+            
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+
+    <!-- Apartado de lo que hacemos -->
+    <section id="whatWeDo">
+        <h2>Lo que hacemos</h2>
+        <p>Somos un equipo colaborativo que utiliza herramientas como GitHub para gestionar nuestros portafolios y proyectos. A través de este sistema, cada miembro puede mostrar sus habilidades y compartir experiencias con otros.</p>
+    </section>
+
+    <!-- Apartado de logros -->
+    <section id="achievements">
+        <h2>Logros del Equipo</h2>
+        <ul>
+            <li>Despliegue automático con GitHub Actions</li>
+            <li>Desarrollo de perfiles colaborativos en GitHub Pages</li>
+            <li>Implementación de metodologías ágiles como Scrum</li>
+        </ul>
+    </section>
+
     <!-- Sección de miembros -->
     <section class="team">
         <div class="container">
             <h2>Miembros del Equipo</h2>
-            <div class="team-members">
+            <div class="team-members" id="portfolioList">
                 <!-- Miembro 1 -->
                 <div class="team-member">
                     <h3>Edwin Cristhian Quispe Diaz</h3>
@@ -56,6 +143,12 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <!-- Imagen de equipo -->
+    <section id="teamImage">
+        <h2>Conoce a nuestro equipo</h2>
+        <img src="ruta/de/tu/imagen.jpg" alt="Imagen del equipo" />
     </section>
 
     <!-- Footer con información de contacto o derechos de autor -->
