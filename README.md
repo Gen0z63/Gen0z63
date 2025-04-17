@@ -59,6 +59,18 @@ Publicamos recursos, compartimos buenas prácticas y contribuimos a proyectos co
 
 ---
 
+## Tecnologías utilizadas
+
+SOFTWAVE-UC está construido con las siguientes tecnologías:
+
+- **Frontend**: React, Vue.js, Angular (elige el que estés usando)
+- **Backend**: Node.js, Python, Django, Flask (elige lo que corresponda)
+- **Base de datos**: MySQL, PostgreSQL, MongoDB (dependiendo de lo que uses)
+- **Version control**: Git, GitHub
+- **Infraestructura**: Docker, Kubernetes (si aplica)
+
+---
+
 ## 🧠 Áreas de interés
 
 - Inteligencia Artificial & Machine Learning 🤖  
@@ -89,6 +101,17 @@ Publicamos recursos, compartimos buenas prácticas y contribuimos a proyectos co
 
 
 ## 🤝 ¿Quieres colaborar?
+
+¡Contribuir es fácil! Si eres miembro de SOFTWAVE-UC o deseas unirte, sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (`git checkout -b nombre-de-la-rama`).
+3. Realiza tus cambios.
+4. Haz un commit con tus cambios (`git commit -m "Descripción del commit"`).
+5. Haz un push de tu rama al repositorio remoto (`git push origin nombre-de-la-rama`).
+6. Abre un pull request con la descripción de los cambios realizados.
+
+¡Esperamos tus contribuciones!
 
 Estamos abiertos a colaboraciones en proyectos sociales, educativos, académicos o de impacto.  
 Si compartes nuestra pasión por la tecnología y el desarrollo, ¡conversemos!
